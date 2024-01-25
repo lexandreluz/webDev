@@ -64,25 +64,27 @@ body{
 }
 
 .library .library__button{
+    display: flex;
     margin-right: 10px;
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
     font-size: 14px;
     font-weight: 700px;
-    font-family: "Dm Sans", sans-serif;
+    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
-    display: flex;
+    
 }
 
 .library .library__button .fa{
-    font-size: 20px;
+    font-size:20px;
+    font-weight: 300;
+    color:#b3b3b3;
     margin-right: 10px;
-    font-weight: 300px;
-    padding-right: 8px;
+    padding-right:8px;
 }
 
 .library .library__content .fa-plus{
@@ -90,16 +92,17 @@ body{
 }
 
 .section-playlist{
-    display: flex;
+    display:flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
+    gap:20px;
     background-color: #242424;
-    color: #b3b3b3;
-    font-weight: 600px;
+    color:#b3b3b3;
+    font-weight: 600;
     font-size: 14px;
-    margin: 8px 0px;
-    padding: 16px 20px;
+    margin: 8px 0;
+    padding:16px 20px;
+    border-radius:10px;
 }
 
 .section-playlist .section-playlist__content{
@@ -110,7 +113,7 @@ body{
 .section-playlist .section-playlist .text{
     padding-bottom: 14px;
     color: #FFF;
-    font-family: "Dm Sans", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title{
@@ -126,17 +129,17 @@ body{
     display: flex;
     justify-content: center;
     background-color: #FFF;
-    color: #000;
+    color:#000;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "Dm Sans", sans-serif;
-    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    text-decoration:none;
     text-transform: none;
-    padding: 10px;
-    border: 0px;
-    width: 113px;
+    padding:10px;
     margin-top: 12px;
+    border:0;
+    width: 113px;
 }
 
 .sidebar .cookies{
@@ -144,9 +147,10 @@ body{
 }
 
 .sidebar .cookies a{
-    color: #b3b3b3;
+    color:#b3b3b3;
+    font-family: "DM Sans", sans-serif;
     font-weight: 500;
-    font-size: 10px;
+    font-size:10px;
     text-decoration: none;
 }
 
@@ -155,14 +159,14 @@ body{
 }
 
 .languages .languages__button{
+    align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
-    color: #FFF;
-    cursor: pointer;
+    color:#FFF;
     font-weight: bold;
-    align-items: center;
+    cursor:pointer;
     width: 170px;
-    margin: 8px;
-    padding: 8px;
-    border-radius: 20px;
+    margin:8px;
+    padding:8px;
+    border-radius:20px;
 }
